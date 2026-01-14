@@ -23,10 +23,10 @@
 | :--- | :--- |
 | <img width="345" height="380" alt="Image" src="https://github.com/user-attachments/assets/d733aa39-330d-42da-a34b-cfc62cc53ab8" /> |<img width="341" height="392" alt="Image" src="https://github.com/user-attachments/assets/b259a640-f518-49a2-912c-b2d8edbedcb8" /> |
 
-### 三、建立模型挖掘資料：
-（使用資料探勘或機器學習方法、訓練資料比率、使用參數…等）(兩個模型參數皆固定)
+### 三、建立模型挖掘資料：（使用資料探勘或機器學習方法、訓練資料比率、使用參數…等）(兩個模型參數皆固定)
 <img width="301" height="410" alt="Image" src="https://github.com/user-attachments/assets/aa18a640-c61c-4605-b067-59c8a77169cf" />
-|<img width="382" height="293" alt="Image" src="https://github.com/user-attachments/assets/abedd930-e815-4ba3-afde-3a32c0684f3a" /> |
+
+|<img width="382" height="293" alt="Image" src="https://github.com/user-attachments/assets/abedd930-e815-4ba3-afde-3a32c0684f3a" />|
 | :---|
 |*Epoch為訓練次數，不用太高，如果訓練過高，容易導致過擬合，也就是在分析訓練資料外的圖片時準確率降低
  |
@@ -43,3 +43,7 @@
 |<img width="603" height="172" alt="Image" src="https://github.com/user-attachments/assets/f429c57d-04be-4c3c-9567-e9cacf78e4ba" /> |
 | :---|
 |*這段程式碼的功能是利用訓練完成的深度學習模型進行影像分類。它讀取圖片，並將影像縮放到模型所需的像素。圖片會被輸入到訓練好的神經網路中，取得模型預測的類別以及各分類的機率。之後程式會顯示這張圖片，透過這段程式碼，可以方便地測試模型在單張圖片上的分類結果並視覺化呈現。|
+
+|*以下兩張照片與訓練資料完全無關，程式將其分類在”noodles”|
+| :---|
+|| ||
